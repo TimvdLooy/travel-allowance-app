@@ -17,7 +17,7 @@
     </head>
     <body class="antialiased">
         <x-navbar></x-navbar>
-        <a href="{{ route('travelAllowanceCsv') }}" type="button" target="_blank" class="btn btn-default">Generate CSV file</a>
+        <a href="{{ route('travelAllowanceCsv') }}" type="button" target="_blank" class="btn btn-default btn-success">Generate CSV file</a>
         @yield('content')
     </body>
 </html>
